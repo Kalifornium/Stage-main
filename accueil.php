@@ -6,3 +6,8 @@
     - Les prestataires
 */
 
+<?php
+
+include 'navbar.php';
+
+?>
