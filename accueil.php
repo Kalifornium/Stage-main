@@ -1,3 +1,9 @@
+<meta charset="utf-8">
+
+<?php
+
+include 'navbar.php';
+
 /* Présentation de l’entreprise :
     - Fonction
     - Localité
@@ -5,9 +11,5 @@
     - Le matériel utilisé
     - Les prestataires
 */
-
-<?php
-
-include 'navbar.php';
 
 ?>

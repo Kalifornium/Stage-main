@@ -1,11 +1,12 @@
 <!-- Lien vers le fichier CSS BootStraps -->
+<meta charset="utf-8">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   
   <!-- Logo de l'entreprise qui redirige vers la page d'accueil -->
-  <a class="navbar-brand" href="accueil.php">PRO TEK ISO</a>
+  <a class="navbar-brand" href="accueil.php" style="padding-left: 1em;">PRO TEK ISO</a>
   
   <!-- Bouton responsive quand la page est réduite -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
