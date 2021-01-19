@@ -67,9 +67,6 @@ include 'navbar.php';
 		<div class="map" id="main">
 			<iframe src="https://www.google.com/maps/d/embed?mid=19Sh4SGqceS3Fpzu6ZBtziD7KiOQb1R89"></iframe>
 		</div>
-<?php/*
-include 'piedDePage.html';*/
-?>
       <!-- Le reste du contenu -->
     </body>
 </html>

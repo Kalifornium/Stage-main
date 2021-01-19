@@ -1,18 +1,17 @@
 body{
-	background-color:white;/*couleur de fond à modifiée*/
+	background-color:black;/*couleur de fond à modifiée*/
 }
 #main{
 	width:75%;
-	/*TRAITS DE CONSTRUCTIONS :*/
-	border:solid 3px black; 
+	/*TRAITS DE CONSTRUCTIONS :
+	border:solid 3px black; */
 }
 div{
 	text-align:center;
-	/*TRAITS DE CONSTRUCTIONS :*/
-	border:dotted 1px blue; 
+	/*TRAITS DE CONSTRUCTIONS :
+	border:dotted 1px blue;*/
 }
 div.map{
-	width:40%;
 	height:300px;
 	margin:auto;
 }
@@ -128,4 +127,28 @@ div.services > div{
 }
 div.services > div:hover{
 	transform: scale(1.1);
+}
+/*Contact exclusivement*/
+div.contact{
+	background-color:white;
+	text-align:left;
+	height:500px;
+	margin:auto;
+	margin-top:100px;
+}
+form{
+	display:flex;
+	flex-direction:column;
+	padding-top:50px;
+	height:80%;
+	width:50%;
+}
+textarea.msg{
+	height:80%;
+}
+input.email{
+	width:50%
+	}
+input.send{
+	width:100px;
 }
