@@ -39,6 +39,16 @@
             <a href="contact.php" class="pad-a">Contact</a>
           </li>
           
+          <!-- Onglet "Isolation" -->
+          <li class="inline middle">
+            <a href="contact.php" class="pad-a">Isolation</a>
+          </li>
+          
+          <!-- Onglet "Gaines" -->
+          <li class="inline middle">
+            <a href="contact.php" class="pad-a">Gaine coupe-feu</a>
+          </li>
+          
         </ul>
 
       </nav>
