@@ -1,20 +1,74 @@
 body{
-	background-color:black;/*couleur de fond à modifiée*/
+	background-color:white;
+	margin: 0px;	
+	font-family: 'DIN Next', sans-serif;
+	font-size: 15px;
+	font-weight: 500;
 }
-#main{
-	width:75%;
-	/*TRAITS DE CONSTRUCTIONS :
-	border:solid 3px black; */
+
+.champ
+{
+	background: url("Images/isolation.jpg");
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.inline
+{
+	display: inline;
+}
+
+p.accueil{
+	padding-right: 20px; 
+	padding-left: 20px; 
+	font-size: 1.20em;
+}
+
+.middle{
+	line-height: 50px;
+}
+
+.pad-a{
+	padding-right: 15px;	
+	padding-left: 15px;
+	white-space: nowrap;
+	color: white;
+	text-decoration: none;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.test-nav{
+    display: flex;
+    flex-direction: column;
+    height: 74px;
+    width: 664px;
+}
+
+.real{
+	height: 270px;
+	width: 270px;
+}
+
 div{
 	text-align:center;
 	/*TRAITS DE CONSTRUCTIONS :
 	border:dotted 1px blue;*/
 }
-div.map{
-	height:300px;
-	margin:auto;
-}
+
+#contenu {
+	text-align:center;
+	height:50px;
+	vertical-align:middle;
+	line-height: 50px;
+	}
+
 div.general_intro{
 	display:flex;
 	flex-direction:column;
@@ -44,9 +98,6 @@ div.general_info > div.inner > div.desc{
 }
 p,ul{
 	text-align:left;
-}
-img{
-	height:100%;
 }
 div.photo{
 	display:flex;
@@ -129,19 +180,10 @@ div.services > div:hover{
 	transform: scale(1.1);
 }
 /*Contact exclusivement*/
-div.contact{
-	background-color:white;
-	text-align:left;
-	height:500px;
-	margin:auto;
-	margin-top:100px;
-}
+
 form{
 	display:flex;
 	flex-direction:column;
-	padding-top:50px;
-	height:80%;
-	width:50%;
 }
 textarea.msg{
 	height:80%;

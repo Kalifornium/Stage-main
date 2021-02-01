@@ -1,72 +1,56 @@
-﻿<!doctype html>
-<html lang="fr">
-    <head>
-      <meta charset="utf-8"></meta>
-      <title>Titre de la page</title>
-      <link rel="stylesheet" type='text/css' href="style.css"/>
-    </head>
-    <body>
-<?php
-include 'navbar.php';
+﻿<html lang="fr">
 
-/* Présentation de l’entreprise :
-    - Fonction
-    - Localité
-    - Champ d’action
-    - Le matériel utilisé
-    - Les prestataires
-*/
-?>
-  	  <div class="general_intro" id="main">
-        <div class="title">
-          <h2>PROTEKISO, notre expérience</h2>
+  <head>
+    <meta charset="utf-8"></meta>
+    <title>Accueil</title>
+    <link rel="stylesheet" type='text/css' href="style.css"/>
+  </head>
+
+  <body>
+
+    <?php include 'navbar.php'; ?>
+
+    <!-- Background 1ère page -->
+    <div style="height: 838px; display:flex;" class="champ">
+      <div style="margin: auto; background-color: rgba(255, 255, 255, 0.7); width: 450px;">
+        <h1 style="padding-right: 20px; padding-left: 20px;">Isolation d'intérieur</h1>
+        <p class="accueil">Passez un hiver au chaud grâce à <strong>une isolation des combles</strong> performante.</p>
+        <p class="accueil">Et réalisez des économies <strong>jusqu'a 30%</strong> d'énergie.</p>
+      </div>
+    </div>
+
+    <div style="height: 750px; display:flex;">
+      <div style="margin: auto; text-align: left;">
+        <h1 style="margin-top: 0;">Nos réalisations</h1><br>
+        <div>
+          <img src="Images/image1.jpg" class="real">
+          <img src="Images/image2.jpg" class="real">
+          <img src="Images/image3.jpg" class="real">
+          <img src="Images/image4.jpg" class="real">
         </div>
-        <div class='desc'>
-          <p>Nous faisons ...<a href="services.php">l'isolation et la gaine coupe-feu</a></p>
-        </div>
-        <div class="subtitle">
-        	<p class="title">Nos réalisations</h3>
-        </div>
-        <div class="photo">
-        	 <img src="#" alt="photo 1"/>
-        	 <img src="#" alt="photo 2"/>
-        	 <img src="#" alt="photo 3"/>
-        	 <img src="#" alt="photo 4"/> 
+        <div>
+          <img src="Images/image5.jpg" class="real">
+          <img src="Images/image6.jpg" class="real">
+          <img src="Images/image7.jpg" class="real">
+          <img src="Images/image8.jpg" class="real">
         </div>
       </div>
+    </div>
 
-      <div class="general_info" id="main">
-        <div class="inner">
-        	<div class="img">
-        		<img src="images/IC_local.png"/>
-      		</div>
-      		<div class="desc">
-      			<p class="title">Coordonnées</p>
-      			<p>Notre adresse est ...</p>
-      			<p class="title">Horaires</p>
-      			<ul>
-      				<li>Lundi :</li>
-      				<li>Mardi :</li>
-      				<li>Mercredi :</li>
-      				<li>Jeudi :</li>
-      				<li>Vendredi :</li>
-      				<li>Samedi :</li>
-      			</ul>
-      		</div>
+    <div style="height: 700px; display: flex;">
+      <div style="width: 1200px; margin:auto; display: flex; flex-direction: row; box-shadow: 1px 1px 12px #555; ">
+        <div style="width: 800px; height: 500px;">
+          <img src="Images/maps.png" style="width: 100%; height: 100%;">
         </div>
-        <div class="inner">
-        	<div class="img">
-        		<img src="images/IC_champ.png"/>
-      		</div>
-      		<div class="desc">
-      			<p class="title">Champ d'action</p>
-      			<p>Nous proposons nos services dans toute (département/région ) ...</p>
-      		</div>
+        <div style="width: 400px; display: flex;">
+          <p style="margin: auto; padding: 20px;"> Description de la localisation, champ d'action..
+          <br> Horaires, adresse.. </p>
         </div>
       </div>
-		<div class="map" id="main">
-			<iframe src="https://www.google.com/maps/d/embed?mid=19Sh4SGqceS3Fpzu6ZBtziD7KiOQb1R89"></iframe>
-		</div>
-      <!-- Le reste du contenu -->
-    </body>
+    </div>
+
+    <?php include 'footer.php'; ?>
+
+  </body>
+
 </html>

@@ -4,7 +4,7 @@
     <head>
 
         <meta charset="utf-8"></meta>
-        <title>Contact</title>
+        <title>Champ d'action</title>
         <link rel="stylesheet" type='text/css' href="style.css"/>
 
     </head>
@@ -13,17 +13,17 @@
 
     <?php
 
-        include 'navbar.php';
+        include 'navbar copy.php';
     ?>
 
     <!-- Bandeau "Champ d'action" -->
     <div style="height: 710px; margin-top: -100px;" class="champ"></div>
 
-    <div style="height: 665px; line-height: 665px; border: 0px solid black; background: url('Images/fond_contact.png'); background-position: center center; background-repeat: no-repeat; background-size: cover;">
-        <div style="border: 0px solid blue; text-align: left; width: 700px; margin: auto; vertical-align: middle; display: inline-block; line-height:1.2; width: 900px;">
+    <div style="height: 665px; line-height: 665px; border: 1px solid black; background: url('Images/fond_contact.png'); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+        <div style="border: 1px solid blue; text-align: left; width: 700px; margin: auto; vertical-align: middle; display: inline-block; line-height:1.2; width: 900px;">
             <h2 style="font-size: 45px; color: white;">Contact</h2>
             <div style="display: flex; flex-direction: row;">
-                <div style="border: 0px solid green; background-color: white; width: 200px; height: 400px;">
+                <div style="border: 1px solid green; background-color: white; width: 200px; height: 400px;">
                     <br><img src="Images/logo_contact.png" style="height: 200px;">
                     <br><strong>PRO TEK ISO</strong><br>
                     <i>85 Rue Gallieni<br>
@@ -33,7 +33,7 @@
                     <br>
                     contact@protekiso.com
                 </div>
-                <div style="text-align: left; border: 0px solid red; width: 700px; background-color: rgba(255, 255, 255, 0.2);">
+                <div style="text-align: left; border: 1px solid red; width: 700px; background-color: rgba(255, 255, 255, 0.2);">
                     <form method="post">
                         <label>Email</label>
                         <input class="email" type="email" name="email" required><br>
@@ -51,9 +51,7 @@
         <iframe src="https://www.google.com/maps/d/embed?mid=19Sh4SGqceS3Fpzu6ZBtziD7KiOQb1R89"></iframe>
     </div>
 
-    <div style="height: 5.500em; background-color: #242323; border: 1px solid #242323;" id="contenu">
-            <p style="text-align: center!important; color: white;">© 2021 Pro-Tek-Iso - Tous droits réservés</p>
-    </div>
+    <?php include 'footer.php'; ?>
 
     </body>
     
