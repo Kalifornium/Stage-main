@@ -1,89 +1,48 @@
 <html lang="fr">
 
-  <head>
-    <meta charset="utf-8"></meta>
-    <title>Gaine</title>
-    <link rel="stylesheet" type='text/css' href="style.css"/>
-  </head>
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>Gaine</title>
+        <link rel="stylesheet" type='text/css' href="style.css"/>
+    </head>
 
-  <body>
+    <body>
 
-	<?php include 'navbar.php'; ?>
+    <?php include 'navbar.php'; ?>
+    
+    <div style="height: 400px; background: url('Images/gaine coupe feu.jpg');	background-position: center center; background-repeat: no-repeat; background-size: cover; display: flex;">
+        <div style="margin: auto; background-color: rgba(255, 255, 255, 0.7); width: 450px;">
+            <h1 style="padding-right: 20px; padding-left: 20px;">Gaine coupe feu</h1>
+        </div>
+    </div>
 	
 	<!-- Services -->
-	<div class="services" id="main">
+    <div style="height: 350px; display: flex;">
+        <div style="display: flex; flex-direction: row; margin:auto;">
+            <img src="Images/materiaux gaine.jpg" style="width: 34em; height: 284px;">
+            <div style="height: 284px; width: 19.5em; text-align: left; margin-left: 2em; line-height: 30px;">
+                <h1 style="margin-top: 0;">Matériaux</h1>
+                Nous mettons en place des ateliers afin de capter avec le plus de précision possible votre vision et vos enjeux stratégiques. 
+                Notre intention première est de répondre au mieux à vos besoins.
+                <br><img src="Images/fond jaune.png" style="height: 5px; width: 5em; margin-top: 2em;">
+            </div>
+        </div>
+    </div>
 
-		<div class="iso" id="serv">
-			<div class="title">
-				<h3>Isolation</h3>
-			</div>
-			<div class="desc">
-				<p> Explications ...</p>
-			</div>
-			<div class="container">
+    <div style="height: 350px;display: flex;">
+        <div style="display: flex; flex-direction: row; margin: auto;">
+            <div style="height: 284px; width: 19.5em; text-align: left; margin-right: 2em; line-height: 30px;">
+                <h1 style="margin-top: 0;">Prestataires</h1>
+                Nous utilisons des outils digitaux adaptés et cohérents afin de déployer au mieux 
+                des solutions pour répondre à vos besoins en termes de stratégie marketing.
+                <br><img src="Images/fond jaune.png" style="height: 5px; width: 5em; margin-top: 2em;">
+            </div>
+            <img src="Images/prestataires gaine.png" style="width: 34em; height: 284px;">
+        </div>
+    </div>
 
-				<div class="inner">
-					<div class="img">
-						<img src="images/IC_materiau.png" alt="matière/matériel"/>
-					</div>
-					<div class="title">
-						<p class="title">Matériau</p>
-					</div>
-					<div class="desc">
-						<p>Explications...</p>
-					</div>
-				</div>
-				<div class="inner">
-					<div class="img">
-						<img src="images/IC_presta.png" alt="prestataires"/>
-					</div>
-					<div class="title">
-						<p class="title">Prestataires</p>
-					</div>
-					<div class="desc">
-						<p>Explications...</p>
-					</div>
-				</div>
-			</div>
-		</div>
+	<?php include 'footer.php'; ?>
 
-		<div class="feu" id="serv">
-			<div class="title">
-				<h3>Gaine coupe-feu</h3>
-			</div>
-			<div class="desc">
-				<p> Explications ...</p>
-			</div>
-			<div class="container">
-
-				<div class="inner">
-					<div class="img">
-						<img src="images/IC_materiau.png" alt="matière/matériel"/>
-					</div>
-					<div class="title">
-						<p class="title">Matériau</p>
-					</div>
-					<div class="desc">
-						<p>Explications...</p>
-					</div>
-				</div>
-				<div class="inner">
-					<div class="img">
-						<img src="images/IC_presta.png" alt="prestataires"/>
-					</div>
-					<div class="title">
-						<p class="title">Prestataires</p>
-					</div>
-					<div class="desc">
-						<p>Explications...</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-		<?php include 'footer.php'; ?>
-
-	</body>
+    </body>
 
 </html>
