@@ -29,24 +29,19 @@
             <a href="accueil.php" class="pad-a">Accueil</a>
           </li>
           
-          <!-- Onglet "Services" -->
+          <!-- Onglet "Isolation" -->
           <li class="inline middle">
-            <a href="services.php" class="pad-a">Services</a>
+            <a href="isolation.php" class="pad-a">Isolation</a>
+          </li>
+          
+          <!-- Onglet "Gaines" -->
+          <li class="inline middle">
+            <a href="gaine.php" class="pad-a">Gaine coupe-feu</a>
           </li>
           
           <!-- Onglet "Contact" -->
           <li class="inline middle">
             <a href="contact.php" class="pad-a">Contact</a>
-          </li>
-          
-          <!-- Onglet "Isolation" -->
-          <li class="inline middle">
-            <a href="contact.php" class="pad-a">Isolation</a>
-          </li>
-          
-          <!-- Onglet "Gaines" -->
-          <li class="inline middle">
-            <a href="contact.php" class="pad-a">Gaine coupe-feu</a>
           </li>
           
         </ul>

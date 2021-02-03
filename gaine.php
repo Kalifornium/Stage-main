@@ -1,16 +1,16 @@
-﻿<!doctype html>
 <html lang="fr">
-    <head>
-      <meta charset="utf-8">
-      <title>Services</title>
-      <link rel="stylesheet" href="style.css">
-      <script src="script.js"></script>
-    </head>
-    <body>
-<?php
-include 'navbar.php';
-/* Présentation détaillée des deux tranches : isolation et gaine coupe-feu */
-?>
+
+  <head>
+    <meta charset="utf-8"></meta>
+    <title>Gaine</title>
+    <link rel="stylesheet" type='text/css' href="style.css"/>
+  </head>
+
+  <body>
+
+	<?php include 'navbar.php'; ?>
+	
+	<!-- Services -->
 	<div class="services" id="main">
 
 		<div class="iso" id="serv">
@@ -81,6 +81,9 @@ include 'navbar.php';
 			</div>
 		</div>
 	</div>
-  <!-- Le reste du contenu -->
-    </body>
+
+		<?php include 'footer.php'; ?>
+
+	</body>
+
 </html>
