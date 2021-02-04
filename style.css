@@ -179,18 +179,115 @@ div.services > div{
 div.services > div:hover{
 	transform: scale(1.1);
 }
-/*Contact exclusivement*/
 
-form{
-	display:flex;
-	flex-direction:column;
+.form__group 
+{
+	position: relative;
+	padding: 15px 0 0;
+	margin-top: 10px;
+	width: 50%;
 }
-textarea.msg{
-	height:80%;
+	
+.form__field 
+{
+	font-family: inherit;
+	width: 100%;
+	border: 0;
+	border-bottom: 2px solid white;
+	outline: 0;
+	font-size: 1.3rem;
+	color: #fff;
+	padding: 7px 0;
+	background: transparent;
+	transition: border-color 0.2s;
 }
-input.email{
-	width:50%
-	}
-input.send{
-	width:100px;
+
+.form__field::placeholder 
+{
+	color: transparent;
+}
+
+.form__field:placeholder-shown ~ .form__label 
+{
+	font-size: 1.3rem;
+	cursor: text;
+	top: 20px;
+}
+
+.form__label 
+{
+	position: absolute;
+	top: 0;
+	display: block;
+	transition: 0.2s;
+	font-size: 1rem;
+	color: white;
+}
+
+.form__field:focus 
+{
+	padding-bottom: 6px;
+	font-weight: 700;
+	border-width: 3px;
+	border-image: linear-gradient(to right, #11998e, #38ef7d);
+	border-image-slice: 1;
+}
+
+.form__field:focus ~ .form__label 
+{
+	position: absolute;
+	top: 0;
+	display: block;
+	transition: 0.2s;
+	font-size: 1rem;
+	color: white;
+	font-weight: 700;
+}
+
+/* reset input */
+.form__field:required, .form__field:invalid 
+{
+	box-shadow: none;
+}
+
+.button 
+{
+	background-color: white;
+	border: none;
+	text-align: center;
+	padding: 20px;
+	margin-top: 3em;
+	width: 120px;
+	transition: all 0.5s;
+	cursor: pointer;
+	float: right;
+}
+
+.button span 
+{
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.button span:after 
+{
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.button:hover span 
+{
+	padding-right: 25px;
+}
+
+.button:hover span:after 
+{
+	opacity: 1;
+	right: 0;
 }
