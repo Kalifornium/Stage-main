@@ -21,8 +21,7 @@
         <div style="display: flex; flex-direction: row; margin:auto;">
             <div style="height: 284px; width: 19.5em; text-align: left; margin-right: 2em; line-height: 30px;">
                 <h1 style="margin-top: 0;">Matériaux</h1>
-                Nous mettons en place des ateliers afin de capter avec le plus de précision possible votre vision et vos enjeux stratégiques. 
-                Notre intention première est de répondre au mieux à vos besoins.
+                Les matières isolantes de haute qualité que utilisons sont choisies rigoureusement afin d'obtenir des performances thermiques élevées.
                 <br><img src="Images/fond jaune.png" style="height: 5px; width: 5em; margin-top: 2em;">
             </div>
             <img src="Images/materiaux.jpg" style="width: 34em; height: 284px;">
@@ -34,8 +33,7 @@
             <img src="Images/prestataires.jpg" style="width: 34em; height: 284px;">
             <div style="height: 284px; width: 19.5em; text-align: left; margin-left: 2em; line-height: 30px;">
                 <h1 style="margin-top: 0;">Prestataires</h1>
-                Nous utilisons des outils digitaux adaptés et cohérents afin de déployer au mieux 
-                des solutions pour répondre à vos besoins en termes de stratégie marketing.
+                Nos prestataires vous permettent de réaliser au mieux la rénovation et l'isolation de votre logement.
                 <br><img src="Images/fond jaune.png" style="height: 5px; width: 5em; margin-top: 2em;">
             </div>
         </div>
