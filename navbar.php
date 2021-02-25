@@ -10,7 +10,7 @@
     <div style="height: 100px;"></div>
 
     <!-- Navbar -->
-    <div class="fixed-top" style="height: 100px; background-color: #242323;">
+    <div class="fixed-top" style="height: 100px; background-color: #242323; z-index: 2;">
 
       <!-- <div>
         <img src="Images/logo.png" style="height: 74px; width: 200px;">
