@@ -47,19 +47,36 @@
                                 </div>
 
                                 <div class="form__group field">
-                                    <input type="email" class="form__field" placeholder="Mail" name="Mail" id='name' required />
+                                    <input type="email" class="form__field" placeholder="Mail" name="email" id='name' required />
                                     <label for="Mail" class="form__label">Mail*</label>
                                 </div>
                             </div>
                             
                             <div class="form__group field" style="width: 100%; margin-top: 2em;">
-                                <input type="msg" class="form__field" placeholder="Message" name="Message" id='name' required />
+                                <input type="msg" class="form__field" placeholder="Message" name="message" id='name' required />
                                 <label for="Message" class="form__label">Message</label>
                             </div>
 
-                            <button class="button"><span><strong> Envoyer </strong></span></button>
+                            <input class="button" type="submit" />
 
                         </form>
+
+                        <?php
+                        if (isset($_POST['message'])) {
+                            $position_arobase = strpos($_POST['email'], '@');
+                            if ($position_arobase === false)
+                                echo '<p>Votre email doit comporter un arobase.</p>';
+                            else 
+                            {
+                                $retour = mail('dylan.hacquart91@gmail.com', 'Envoi depuis la page Contact', $_POST['message'], 'From: ' . $_POST['email']);
+                                if($retour)
+                                    echo '<p>Votre message a été envoyé.</p>';
+                                else
+                                    echo '<p>Erreur.</p>';
+                            }
+                        }
+                        ?>
+
                     </div>
                 </div>
             </div>
