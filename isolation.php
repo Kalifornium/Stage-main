@@ -21,7 +21,7 @@
         <div style="display: flex; flex-direction: row; margin:auto;">
             <div style="height: 284px; width: 19.5em; text-align: left; margin-right: 2em; line-height: 30px;">
                 <h1 style="margin-top: 0;">Matériaux</h1>
-                Les matières isolantes de haute qualité que utilisons sont choisies rigoureusement afin d'obtenir des performances thermiques élevées.
+                Les matières isolantes de haute qualité que nous utilisons sont choisies rigoureusement afin d'obtenir des performances thermiques élevées.
                 <br><img src="Images/fond jaune.png" style="height: 5px; width: 5em; margin-top: 2em;">
             </div>
             <img src="Images/materiaux.jpg" style="width: 34em; height: 284px;">

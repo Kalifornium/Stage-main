@@ -18,12 +18,16 @@
       </div>
     </div> -->
 
+    <!-- <div style="background-color: white; height: 89.5%;"> -->
+
     <div id="slidy-container" style="z-index: 1;">
       <figure id="slidy">
-      <img src="Images/isolation modif.jpg" data-caption="Passez un hiver au chaud grâce à <strong>une isolation des combles</strong> performante. <br> Et réalisez des économies <strong>jusqu'a 30%</strong> d'énergie.">
-      <img src="Images/gaine modif.jpg" data-caption="Nous utilisons pour les <strong> gaines coupe feu et de désenfumage </strong> <br> des matériaux garantissant une <strong>résistance accrue au feu.</strong>" >
+      <img src="Images/isolation modif.jpg" data-caption="<br>Passez un hiver au chaud grâce à <strong>une isolation des combles</strong> performante. <br> Et réalisez des économies <strong>jusqu'a 30%</strong> d'énergie.<br> &nbsp">
+      <img src="Images/gaine modif.jpg" data-caption="<br>Nous utilisons pour les <strong> gaines coupe feu et de désenfumage </strong> <br> des matériaux garantissant une <strong>résistance accrue au feu.</strong> <br> &nbsp" >
       </figure>
     </div>
+
+    <!-- </div>   -->
 
     <script>
       var cssSlidy = function(newOptions) {
@@ -111,7 +115,7 @@
           css.id = options.slidySelector.replace('#', '') + "-css";
           css.innerHTML += options.slidyContainerSelector + " { overflow: hidden; }\n";
           css.innerHTML += options.slidySelector + " { text-align: left; margin: 0; font-size: 0; position: relative; width: " + (imgCount * 100) + "%;  }\n"; // set the width for the inner slider container
-          css.innerHTML += options.slidySelector + " figure { float: left; margin: 0; position: relative; display: inline-block; width: " + basePercentage + "%; height: auto; }\n"; // set the width and size pf the inner <figure> elements
+          css.innerHTML += options.slidySelector + " figure { float: left; margin: 0; position: relative; display: inline-block; width: " + basePercentage + "%; }\n"; // set the width and size pf the inner <figure> elements
           css.innerHTML += options.slidySelector + " figure img { width: 100%; }\n";
           css.innerHTML += options.slidySelector + " figure figcaption { position: absolute; width: 100%; background-color: " + options.captionBackground + "; color: " + options.captionColor + "; font-family: " + options.captionFont + ";";
           

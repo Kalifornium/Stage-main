@@ -24,14 +24,14 @@
             <h2 style="font-size: 45px; color: white; margin-top: 0px;">Contact</h2>
             <div style="display: flex; flex-direction: row;">
                 <div style="border: 0px solid green; background-color: white; width: 200px; height: 400px; border-radius: 10px 0px 0px 10px;">
-                    <br><img src="Images/logo_contact.png" style="height: 200px;">
+                    <br><img src="Images/logo contact.png" style="height: 200px; margin-bottom: 1em;">
                     <br><strong>PRO TEK ISO</strong><br>
                     <i>85 Rue Gallieni<br>
                     95170 Deuil-la-Barre</i><br>
                     <br>
-                    +33 6 43 66 65 86<br>
+                    +33 1 39 83 24 50<br>
                     <br>
-                    contact@protekiso.com
+                    pro-tek-iso@orange.fr
                 </div>
                 <div style="text-align: left; border: 0px solid red; width: 700px; background-color: rgba(255, 255, 255, 0.25); border-radius: 0px 10px 10px 0px; display: flex;">
                     <div style="border: 0px solid green; height: 320px; width: 570px; margin: auto; text-align: left;">
